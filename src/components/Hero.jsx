@@ -63,15 +63,17 @@ const Hero = () => {
             </a>
             </div>
           </div>
-          <div
-          data-aos = 'fade-left'
-          data-aos-delay = '500'
-          className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6'>
-            <img src={hero} alt="Navanetha Krishnan S" className='object-cover object-right rounded-full w-80 h-80 border-4 border-white shadow-xl transform translate-x-10'
-            width={320}
-            height={320}
-            loading='eager' />
-          </div>
+          <div className="relative w-80 h-80 bg-gray-100 rounded-full overflow-hidden border-4 border-white shadow-xl">
+  <img
+    src={hero}
+    alt="Navanetha Krishnan S"
+    className="w-full h-full object-cover object-center"
+    width={320}
+    height={320}
+    loading="eager"
+  />
+</div>
+
         </div>
       </section>
 
