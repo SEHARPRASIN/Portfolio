@@ -67,7 +67,7 @@ const Hero = () => {
   <img
     src={hero}
     alt="Navanetha Krishnan S"
-    className="w-full h-full object-cover object-center"
+    className="w-full h-full object-cover object-right"
     width={320}
     height={320}
     loading="eager"
