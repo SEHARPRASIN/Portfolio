@@ -63,11 +63,12 @@ const Hero = () => {
             </a>
             </div>
           </div>
-          <div className="relative w-80 h-80 bg-gray-100 rounded-full overflow-hidden border-4 border-white shadow-xl">
+          <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6'> 
+
   <img
     src={hero}
     alt="Navanetha Krishnan S"
-    className="w-full h-full object-cover object-right"
+    className="relative w-80 h-80 bg-gray-100 rounded-full overflow-hidden border-4 border-white shadow-xl"
     width={320}
     height={320}
     loading="eager"
