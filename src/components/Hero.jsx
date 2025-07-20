@@ -67,9 +67,9 @@ const Hero = () => {
           data-aos = 'fade-left'
           data-aos-delay = '500'
           className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6'>
-            <img src={hero} alt="Navanetha Krishnan S" className='object-cover object-right rounded-full w-350 h-100 border-6 border-white shadow-xl transform translate-x-10'
+            <img src={hero} alt="Navanetha Krishnan S" className='object-cover object-right rounded-full w-80 h-80 border-4 border-white shadow-xl transform translate-x-10'
             width={320}
-            height={260}
+            height={320}
             loading='eager' />
           </div>
         </div>
